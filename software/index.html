@@ -15,6 +15,10 @@
         <link rel="canonical" href="https://aho-opensource.github.io/software/">
       
       
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../assets/">
       
       
       <link rel="icon" href="../images/ahopen-favicon.svg">
@@ -37,7 +41,7 @@
   
   
   
-  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-4l-4 4-4-4H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2m1 3v2h14V5zm0 4v2h10V9zm0 4v2h12v-2z"/></svg>');}</style>
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-4l-4 4-4-4H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2m0 2v12h4.83L12 19.17 15.17 16H20V4zm2 3h12v2H6zm0 4h10v2H6z"/></svg>');}</style>
 
 
     
@@ -276,36 +280,72 @@
       
   
   
+    
   
   
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
     
     
-    
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
-            
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
   
   <span class="md-ellipsis">
     Software
   </span>
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Software
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
             
               
                 
@@ -511,6 +551,30 @@
   
     
     
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
     
     
     <li class="md-nav__item md-nav__item--nested">
@@ -520,16 +584,24 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../assets/" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     Assets
   </span>
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
@@ -537,6 +609,8 @@
             Assets
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
             
               
                 
@@ -741,6 +815,14 @@
   
   
     
+    
+      
+        
+      
+        
+      
+        
+      
     
     
     
@@ -1259,66 +1341,98 @@
 
 
 <h1 id="software">Software</h1>
+<p>CLI software is easiest installed using your <a href="#system">package manager</a>. 
+<em>Homebrew</em> can even install most GUI software for your macOS.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="macos" name="__tabbed_1" type="radio" /><input id="windows" name="__tabbed_1" type="radio" /><input id="linux" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="macos">macOS</label><label for="windows">Windows</label><label for="linux">Linux</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Using Terminal:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>$<span class="w"> </span>brew<span class="w"> </span>search<span class="w"> </span>&lt;name&gt;<span class="w">       </span><span class="c1"># look after software </span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>$<span class="w"> </span>brew<span class="w"> </span>install<span class="w"> </span>&lt;name&gt;<span class="w">      </span><span class="c1"># install software </span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>$<span class="w"> </span>brew<span class="w"> </span>cask<span class="w"> </span>install<span class="w"> </span>&lt;name&gt;<span class="w"> </span><span class="c1"># install GUI software </span>
+</span></code></pre></div>
+</div>
+<div class="tabbed-block">
+<p>Using WSL (Ubuntu):</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>$<span class="w"> </span>apt<span class="w"> </span>search<span class="w"> </span>&lt;name&gt;<span class="w">         </span><span class="c1"># look after software</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>$<span class="w"> </span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>&lt;name&gt;<span class="w">   </span><span class="c1"># install software</span>
+</span></code></pre></div>
+</div>
+<div class="tabbed-block">
+<p><a href="https://wiki.archlinux.org/title/Pacman/Rosetta">pacman/Rosetta</a></p>
+</div>
+</div>
+</div>
+<hr />
 <h2 id="system">System</h2>
-<h3 id="homebrew"><a href="https://brew.sh/">Homebrew</a></h3>
+<h4 id="homebrew"><a href="https://brew.sh/">Homebrew</a></h4>
 <p>The missing package manager for macOS.</p>
-<h3 id="windows-subsystem-for-linux"><a href="https://learn.microsoft.com/en-us/windows/wsl/">Windows Subsystem for Linux</a></h3>
-<p>Use Linux inside Windows. Makes it easy to install and run CLI software on Windows.</p>
+<h4 id="windows-subsystem-for-linux"><a href="https://learn.microsoft.com/en-us/windows/wsl/">Windows Subsystem for Linux</a></h4>
+<p>Use Linux inside Windows. Works as a package manager for CLI software on Windows.</p>
 <h2 id="cad">CAD</h2>
-<h3 id="freecad"><a href="https://www.freecad.org/">FreeCAD</a></h3>
+<h4 id="freecad"><a href="https://www.freecad.org/">FreeCAD</a></h4>
 <p>Parametric 3D modeller software. Functionality is assumed to increase a lot the following years.</p>
-<h3 id="freecad-bim"><a href="https://www.freecad.org/">FreeCAD BIM</a></h3>
+<h4 id="freecad-bim"><a href="https://www.freecad.org/">FreeCAD BIM</a></h4>
 <p>FreeCAD workbench for digital architecture modelling.</p>
-<h3 id="blender"><a href="https://www.blender.org/">Blender</a></h3>
+<h4 id="blender"><a href="https://www.blender.org/">Blender</a></h4>
 <p>Meshing and sculpting 3D-modeller software.</p>
-<h3 id="librecad"><a href="https://librecad.org/">LibreCAD</a></h3>
+<h4 id="librecad"><a href="https://librecad.org/">LibreCAD</a></h4>
 <p>2D design software with DXF support.</p>
 <h2 id="graphic">Graphic</h2>
-<h3 id="inkscape"><a href="https://inkscape.org/">Inkscape</a></h3>
+<h4 id="inkscape"><a href="https://inkscape.org/">Inkscape</a></h4>
 <p>Vector graphics editor with bitmap tracing, path effects, filters and generator extensions (QR codes, charts, plots, calendars, etc.).</p>
-<h3 id="krita"><a href="https://krita.org/">Krita</a></h3>
+<h4 id="krita"><a href="https://krita.org/">Krita</a></h4>
 <p>Raster graphics drawing editor with good graphics table support and G'MIC filters.</p>
-<h3 id="gimp"><a href="https://www.gimp.org/">GIMP</a></h3>
+<h4 id="gimp"><a href="https://www.gimp.org/">GIMP</a></h4>
 <p>Raster graphics editor for image manipulation and editing, typically photos.</p>
-<h3 id="fontforge"><a href="https://fontforge.org/">FontForge</a></h3>
+<h4 id="fontforge"><a href="https://fontforge.org/">FontForge</a></h4>
 <p>Font editor software. Can also extract and export fonts from PDF files.</p>
-<h3 id="blender_1"><a href="https://www.blender.org/">Blender</a></h3>
+<h4 id="blender_1"><a href="https://www.blender.org/">Blender</a></h4>
 <p>3D scene renderer (photorealism, cartooning, etc.)</p>
-<h3 id="imagemagick"><a href="https://imagemagick.org/">ImageMagick</a></h3>
-<p>CLI image format converter and editor.</p>
+<h4 id="imagemagick"><a href="https://imagemagick.org/">ImageMagick</a></h4>
+<p class="annotate">CLI image format converter and editor. (1)</p>
+<ol>
+<li>Install using your <a href="#software">package manager</a>.</li>
+</ol>
 <h2 id="video">Video</h2>
-<h3 id="kdenlive"><a href="https://kdenlive.org/">Kdenlive</a></h3>
+<h4 id="kdenlive"><a href="https://kdenlive.org/">Kdenlive</a></h4>
 <p>Video editor software.</p>
-<h3 id="blender_2"><a href="https://docs.blender.org/manual/en/latest/video_editing/index.html">Blender</a></h3>
+<h4 id="blender_2"><a href="https://docs.blender.org/manual/en/latest/video_editing/index.html">Blender</a></h4>
 <p>Using Blender for video editing.</p>
-<h3 id="eagleanimation"><a href="https://brickfilms.com/eagle-animation">EagleAnimation</a></h3>
+<h4 id="eagleanimation"><a href="https://brickfilms.com/eagle-animation">EagleAnimation</a></h4>
 <p>Create stop motion animation, typically using a connected USB-webcam.</p>
-<h3 id="ffmpeg"><a href="https://ffmpeg.org/">FFmpeg</a></h3>
-<p>CLI to convert video and sound formats. TODO: Link to CLI installation (brew, WSL, linux)</p>
+<h4 id="ffmpeg"><a href="https://ffmpeg.org/">FFmpeg</a></h4>
+<p class="annotate">CLI to convert video and sound formats. (1)</p>
+<ol>
+<li>Install using your <a href="#software">package manager</a>.</li>
+</ol>
 <h2 id="audio">Audio</h2>
-<h3 id="audacity"><a href="https://www.audacityteam.org/">Audacity</a></h3>
+<h4 id="audacity"><a href="https://www.audacityteam.org/">Audacity</a></h4>
 <p>Digital audio editor and recorder.</p>
 <h2 id="web">Web</h2>
-<h3 id="github-pages"><a href="https://pages.github.com/">GitHub Pages</a></h3>
+<h4 id="github-pages"><a href="https://pages.github.com/">GitHub Pages</a></h4>
 <p>A free and easy way to create a homepage using your GitHub account.</p>
-<h3 id="material-for-mkdocs"><a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a></h3>
+<h4 id="material-for-mkdocs"><a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a></h4>
 <p>A popular theme for MkDocs to build webpages. Works well with GitHub pages.</p>
-<h3 id="awesome-selfhosted"><a href="https://awesome-selfhosted.net/">awesome-selfhosted</a></h3>
+<h4 id="awesome-selfhosted"><a href="https://awesome-selfhosted.net/">awesome-selfhosted</a></h4>
 <p>List of self hosting alternatives for web services.</p>
 <h2 id="office">Office</h2>
-<h3 id="pandoc"><a href="https://pandoc.org/">Pandoc</a></h3>
-<p>CLI for converting between text document formats. Makes it easy to create PDF files from Markdown with images, reference system, etc. Templates let you define custom visual styles.</p>
-<h3 id="libreoffice"><a href="https://www.libreoffice.org/">LibreOffice</a></h3>
+<h4 id="pandoc"><a href="https://pandoc.org/">Pandoc</a></h4>
+<p class="annotate">CLI for converting between text document formats. (1) Makes it easy to create PDF files from Markdown with images, reference system, etc. Templates let you define custom visual styles.</p>
+<ol>
+<li>Install using your <a href="#software">package manager</a>.</li>
+</ol>
+<h4 id="libreoffice"><a href="https://www.libreoffice.org/">LibreOffice</a></h4>
 <p>Traditional office suite (word processor, spreadsheet, presentation program, database).</p>
 <h2 id="diagram">Diagram</h2>
-<h3 id="penpot"><a href="https://penpot.app/">Penpot</a></h3>
+<h4 id="penpot"><a href="https://penpot.app/">Penpot</a></h4>
 <p>GUI design </p>
-<h3 id="sankeymatic"><a href="https://sankeymatic.com/">SankeyMATIC</a></h3>
+<h4 id="sankeymatic"><a href="https://sankeymatic.com/">SankeyMATIC</a></h4>
 <p>Compare amounts through different stages.</p>
 <h2 id="tools">Tools</h2>
-<h3 id="git"><a href="https://git-scm.com/book/">Git</a></h3>
+<h4 id="git"><a href="https://git-scm.com/book/">Git</a></h4>
 <p>The de facto version control system. </p>
-<h3 id="github"><a href="https://github.com/">GitHub</a></h3>
+<h4 id="github"><a href="https://github.com/">GitHub</a></h4>
 <p>The open source central on the internets. Create a user and start development and collaboration.</p>
 
 
@@ -1350,6 +1464,44 @@
         <footer class="md-footer">
   
     
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Welcome!">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Welcome!
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../assets/" class="md-footer__link md-footer__link--next" aria-label="Next: Assets">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Assets
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -1373,7 +1525,7 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["content.tabs.link", "navigation.footer", "navigation.tracker", "toc.follow"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.tabs.link", "navigation.footer", "navigation.tracker", "toc.follow", "navigation.indexes"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.60a45f97.min.js"></script>
