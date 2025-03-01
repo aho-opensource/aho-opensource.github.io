@@ -1,3 +1,24 @@
+.demo {
+    width:420px;
+}
+#lightSlider ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+#lightSlider li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+#lightSlider img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+
 /*remove titles in header */
 .md-header__topic, .md-nav__title {
   display: none;
