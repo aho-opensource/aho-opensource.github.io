@@ -1,6 +1,3 @@
-.demo {
-    width:420px;
-}
 #lightSlider ul {
     list-style: none outside none;
     padding-left: 0;
@@ -18,6 +15,14 @@
     max-width: 100%;
 }
 
+#lightSlider figcaption {
+  font-size: 16px;
+  display: block;
+}
+
+#lightSlider figure {
+  position: relative;
+}
 
 /*remove titles in header */
 .md-header__topic, .md-nav__title {
@@ -30,24 +35,7 @@
   display: none !important;
 }
 
-/* remove Next/Prev */
-/* NOTE: this is instead done by removing theme.features.navigation.footer
-/*.md-footer__inner  {*/
-/*  display: none !important;*/
-/*}*/
-
-/*h3 { white-space: nowrap; }*/
-/*h3 {*/
-/*    page-break-inside: avoid;*/
-/*}*/
-/*h3::after {*/
-/*    content: "";*/
-/*    display: block;*/
-/*    height: 100px;*/
-/*    margin-bottom: -100px;*/
-/*}*/
-
-/*/* add icon for external links */*/
+/* add icon for external links */
 /*.md-typeset a:not(.md-icon) {*/
 /*    &[href^="//"]::after,*/
 /*    &[href^="http://"]::after,*/
