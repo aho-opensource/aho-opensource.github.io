@@ -40,7 +40,7 @@
         <link rel="prev" href="../software/">
       
       
-        <link rel="next" href="../programmes/architecture/">
+        <link rel="next" href="../guides/githubpages-portfolio/">
       
       
       <link rel="icon" href="../images/ahopen-favicon.svg">
@@ -942,8 +942,6 @@
       
         
       
-        
-      
     
     
     
@@ -958,7 +956,7 @@
             
   
   <span class="md-ellipsis">
-    Study Programs
+    Guides
     
   </span>
   
@@ -968,6 +966,101 @@
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guides/githubpages-portfolio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Portfolio using Github Pages
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guides/markdown/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diploma using Markdown
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Study Programs
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Study Programs
           </label>
@@ -1167,9 +1260,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#fontlibrary" class="md-nav__link">
+  <a href="#font-library" class="md-nav__link">
     <span class="md-ellipsis">
-      FONTLIBRARY
+      Font Library
     </span>
   </a>
   
@@ -1569,8 +1662,8 @@
 <h4 id="google-icons"><a href="https://fonts.google.com/icons">Google Icons</a></h4>
 <h4 id="font-awesome"><a href="https://github.com/FortAwesome/Font-Awesome">Font Awesome</a></h4>
 <h2 id="fonts">Fonts</h2>
-<h4 id="fontlibrary"><a href="https://fontlibrary.org/">FONTLIBRARY</a></h4>
-<p>Open font library.</p>
+<h4 id="font-library"><a href="https://fontlibrary.org/">Font Library</a></h4>
+<p>The open font library.</p>
 <h4 id="google-fonts"><a href="https://fonts.google.com/">Google Fonts</a></h4>
 <p>Modern and popular fonts.</p>
 <h4 id="font-squirrel"><a href="https://www.fontsquirrel.com/">Font Squirrel</a></h4>
@@ -1688,6 +1781,7 @@
       
     
   <!-- Add scripts that need to run afterwards here -->
+
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="js/lightslider.js"></script>
   <script type="text/javascript">
@@ -1697,104 +1791,42 @@
 
     $(document).ready(function() {
         $('#lightSlider').lightSlider({
-            //gallery: true,
-            //item: 1,
-            //loop: true,
-            //slideMargin: 0,
-            //thumbItem: 9
+
+            easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+            speed:600,
+            onSliderLoad: function() { $('#lightSlider').removeClass('cS-hidden'); },
 
             item: 3,
-            autoWidth: false, // 
             slideMove: 1, // slidemove will be 1 if loop is true
             slideMargin: 10,
-
-            addClass: '',
-            mode: "slide",
-            useCSS: true,
-            cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',//
-            easing: 'linear', //'for jquery animation',////
-
-            speed: 400, //ms'
+            //slideMargin: 0,
+            autoWidth:true,
+            loop:true,
             auto: true,
             pauseOnHover: true,
-            loop: true,
-            slideEndAnimation: true,
-            pause: 2000,
+            pager: false,
 
-            keyPress: false,
-            controls: true,
-            prevHtml: '',
-            nextHtml: '',
+            responsive : [
+                {
+                    breakpoint:800,
+                    settings: {
+                        item:2,
+                        //slideMargin:6,
+                      }
+                },
+                {
+                    breakpoint:480,
+                    settings: {
+                        item:1,
+                        slideMove:1
+                      }
+                }
+            ]
 
-            rtl:false,
-            adaptiveHeight:false,
-
-            vertical:false,
-            verticalHeight:500,
-            vThumbWidth:100,
-
-            thumbItem:10,
-            pager: true,
-            gallery: false,
-            galleryMargin: 5,
-            thumbMargin: 5,
-            currentPagerPosition: 'middle',
-
-            enableTouch:true,
-            enableDrag:false,//
-            freeMove:true,
-            swipeThreshold: 40,
-
-            responsive : [],
-
-            //item:4,
-            //loop:false,
-            //slideMove:2,
-            //easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
-            //speed:600,
-            //responsive : [
-            //    {
-            //        breakpoint:800,
-            //        settings: {
-            //            item:3,
-            //            slideMove:1,
-            //            slideMargin:6,
-            //          }
-            //    },
-            //    {
-            //        breakpoint:480,
-            //        settings: {
-            //            item:2,
-            //            slideMove:1
-            //          }
-            //    }
-            //]
-
-        //          adaptiveHeight:true,
-        //item:6,
-        //slideMargin:0,
-        //loop:true
-
-          //  item:4,
-          //autoWidth:true,
-          //loop:true,
-          //onSliderLoad: function() { $('#autoWidth').removeClass('cS-hidden'); } 
 
         });
     });
 
-      //document$.subscribe(function() {
-      //    $("#lightSlider").lightSlider
-      //    (
-      //      {
-      //          gallery: true,
-      //          item: 1,
-      //          loop: true,
-      //          slideMargin: 0,
-      //          thumbItem: 9
-      //    
-      //      }
-      //    );
   </script>
 
 
