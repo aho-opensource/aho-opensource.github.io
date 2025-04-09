@@ -28,13 +28,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Freedom for The Oslo School of Architecture and Design">
+        <meta name="description" content="Freedom for schools in Oslo of Architecture and Design">
       
       
         <meta name="author" content="karamellpelle">
       
       
-        <link rel="canonical" href="https://aho-opensource.github.io/puzzle2025/">
+        <link rel="canonical" href="https://aho-opensource.github.io/ahoquiz/">
       
       
       
@@ -44,7 +44,7 @@
     
     
       
-        <title>Puzzle2025 - </title>
+        <title>ahoquiz - </title>
       
     
     
@@ -110,7 +110,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#paskentter-2025" class="md-skip">
+        <a href="#x-_-_" class="md-skip">
           Skip to content
         </a>
       
@@ -145,7 +145,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Puzzle2025
+              ahoquiz
             
           </span>
         </div>
@@ -249,7 +249,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -1192,7 +1194,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -1200,8 +1204,6 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
-  
-    
   
   
     <label class="md-nav__title" for="__toc">
@@ -1211,18 +1213,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#bokstav-0" class="md-nav__link">
+  <a href="#x-_-_" class="md-nav__link">
     <span class="md-ellipsis">
-      Bokstav 0
+      X _ _
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#bokstav-1" class="md-nav__link">
+  <a href="#_-y-_" class="md-nav__link">
     <span class="md-ellipsis">
-      Bokstav 1
+      _ Y _
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_-_-z" class="md-nav__link">
+    <span class="md-ellipsis">
+      _ _ Z
     </span>
   </a>
   
@@ -1241,43 +1252,222 @@
               <article class="md-content__inner md-typeset">
                 
                   
+  
+
 
 
   
   
 
+
+  <h1>ahoquiz</h1>
 
 <style>
 
+/* conceil our text with Hans Gerhard's font */
 @font-face {
   font-family: "hansgerhard";
   src: url(/fonts/HubahubaW95-Reg.woff2);
 }
-
-div, p, h1, h2, h3 {
-  font-family: "hansgerhard";
+body, input, code
+{
+/**/
+  font-family: "hansgerhard" !important;
+/**/
 }
-.md-sidebar__scrollwrap,
-.md-source
+
+/* set style for ahoquiz */
+/* hide title */
+h1
 {
     display: none;
 }
 
+blockquote
+{
+    color: darkorange !important;
+    /*border-left-color:  darkorange !important; */
+    border-style: none !important;
+    padding-left: 0 !important;
+}
+
+/*
+.admonition > p:not(.admonition-title)
+{
+    -webkit-animation: aho-pulsate 2s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+}
+*/
+
+.ahoquiz-door > p.admonition-title
+{
+    -webkit-animation: aho-pulsate 2s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+}
+
+@-webkit-keyframes aho-pulsate {
+    0% { 
+        opacity: 0.5;
+        color: #0091bd;
+    }
+    50% { 
+        opacity: 1.0;
+        color: #fe6e42;
+    }
+    100% { 
+        opacity: 0.5;
+        color: #0091bd;
+    }
+}
+
+div.language-text.md-code__content
+{
+    color: purple !important; 
+}
+
+.md-typeset code
+{
+    background-color: transparent !important;
+}
+
+.ahoquiz-hide-unless-copy
+{
+    font-size: 0.5pt !important;
+    color: transparent !important;
+}
+
+/*code:not(.md-code__content)*/
+code
+{
+    color: purple !important;
+}
+
+.md-sidebar__scrollwrap,
+.md-source,
+.md-header__source
+{
+    display: none !important;
+}
+
+.md-grid
+{
+    max-width: none;
+
+}
+
+
+
+:root {
+  --md-admonition-icon--ahoquiz-door: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 11h2v2h-2zm-4-8h7a2 2 0 0 1 2 2v14h1v2H2v-2h8V5a2 2 0 0 1 2-2m0 2v14h7V5M6.2 5H2.8v-.5a1.7 1.7 0 0 1 3.4 0M7 5v-.5a2.5 2.5 0 0 0-5 0V5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1"></path></svg>')
+}
+.md-typeset .admonition.ahoquiz-door,
+.md-typeset details.ahoquiz-door {
+  border-color: rgb(43, 155, 70);
+}
+.md-typeset .ahoquiz-door > .admonition-title,
+.md-typeset .ahoquiz-door > summary {
+  background-color: rgba(43, 155, 70, 0.1);
+}
+.md-typeset .ahoquiz-door > .admonition-title::before,
+.md-typeset .ahoquiz-door > summary::before {
+  background-color: rgb(43, 155, 70);
+  -webkit-mask-image: var(--md-admonition-icon--ahoquiz-door);
+          mask-image: var(--md-admonition-icon--ahoquiz-door);
+}
+
+
 </style>
 
-<h1 id="paskentter-2025">Påskenøtter 2025 :)</h1>
-<p>Hei min gode venn, </p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a> ▄▄▄       ██░ ██  ▒█████    █████   █    ██  ██▓▒███████▒   
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>▒████▄    ▓██░ ██▒▒██▒  ██▒▒██▓  ██▒ ██  ▓██▒▓██▒▒ ▒ ▒ ▄▀░   
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>▒██  ▀█▄  ▒██▀▀██░▒██░  ██▒▒██▒  ██░▓██  ▒██░▒██▒░ ▒ ▄▀▒░    
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>░██▄▄▄▄██ ░▓█ ░██ ▒██   ██░░██  █▀ ░▓▓█  ░██░░██░  ▄▀▒   ░   
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a> ▓█   ▓██▒░▓█▒░██▓░ ████▓▒░░▒███▒█▄ ▒▒█████▓ ░██░▒███████▒   
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a> ▒▒   ▓▒█░ ▒ ░░▒░▒░ ▒░▒░▒░ ░░ ▒▒░ ▒ ░▒▓▒ ▒ ▒ ░▓  ░▒▒ ▓░▒░▒   
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>  ▒   ▒▒ ░ ▒ ░▒░ ░  ░ ▒ ▒░  ░ ▒░  ░ ░░▒░ ░ ░  ▒ ░░░▒ ▒ ░ ▒   
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>  ░   ▒    ░  ░░ ░░ ░ ░ ▒     ░   ░  ░░░ ░ ░  ▒ ░░ ░ ░ ░ ░   
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>      ░  ░ ░  ░  ░    ░ ░      ░       ░      ░    ░ ░       
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>                                                 ░           
+</span></code></pre></div>
+<blockquote>
+<p>Frihet til å skape<br />
+Verktøy og material<br />
+Hei min gode venn, <br />
+En digital safari innen åpen design er gøy, <br />
+og nå begynner din digitale erfaring å bli høy.<br />
+Kanskje du etter denne reise vil se<br />
+at det å la seg forblinde av kommersielle løsninger er passé.<br />
+For open source gir deg så mye mer<br />
+enn bedre økonomi <br />
+Min kjære venn: Kom, bli med!  </p>
+</blockquote>
+<p class="ahoquiz-hide-unless-copy">++++ HEI :) ++++
+Dersom du leser dette, har du antageligvis kopiert teksten og limt den inn et annet sted. For å lese teksten bedre, anbefales det å benytte "Developer mode" i nettleseren til å deaktivere "font-family: hansgerhard !important" fra CSS :) &lt;==
+++++++++++++++++</p>
+<!---
+
+
+$$\   $$\ $$$$$$$$\ $$$$$$\           $$$\   
+$$ |  $$ |$$  _____|\_$$  _|           \$$\  
+$$ |  $$ |$$ |        $$ |        $$\   \$$\ 
+$$$$$$$$ |$$$$$\      $$ |        \__|   $$ |
+$$  __$$ |$$  __|     $$ |               $$ |
+$$ |  $$ |$$ |        $$ |        $$\   $$  |
+$$ |  $$ |$$$$$$$$\ $$$$$$\       \__|$$$  / 
+\__|  \__|\________|\______|          \___/  
+
+
+
+Om du leser dette avsnittet, leser du antageligvis HTML-koden til siden. 
+Da anbefales det å benytte "Developer mode" i nettleseren 
+til å deaktivere "font-family: hansgerhard !important" fra CSS 
+for å lese teksten bedre!
+
+
+-->
+
 <p>her fortsetter ordleken igjen.</p>
-<h2 id="bokstav-0">Bokstav 0</h2>
-<h2 id="bokstav-1">Bokstav 1</h2>
+<div class="admonition example">
+<p class="admonition-title">Kodeord</p>
+<p>For hver bokstav trenger du et kodeord for å komme deg videre. 
+Kodeord finner du gjennom å løse deloppgaver til hver bokstav.
+Dersom kodeordet f.eks. er "LibreCADPandoc", åpner du døren 
+med <code>https://aho-opensource.github.io/ahoquiz/librecadpandoc</code>. </p>
+</div>
+<h2 id="x-_-_">X _ _</h2>
+<blockquote>
+<p>Lorem ipsum dolor sit amet, consectetur<br />
+adipiscing elit. Nulla et euismod nulla.<br />
+Curabitur feugiat, <code>tortor non</code> consequat<br />
+finibus, justo purus auctor massa, nec<br />
+semper lorem quam in massa.  </p>
+</blockquote>
+<ul>
+<li><strong>A</strong>: Kdenlive</li>
+<li><strong>B:</strong> Linux Distro</li>
+</ul>
+<div class="admonition ahoquiz-door">
+<p class="admonition-title">https://aho-opensource.github.io/ahoquiz/ <strong>A</strong> - <strong>B</strong></p>
+</div>
+<h2 id="_-y-_">_ Y _</h2>
+<blockquote>
+<p>Lorem ipsum dolor sit amet, consectetur<br />
+adipiscing elit. Nulla et euismod nulla.<br />
+Curabitur feugiat, <code>tortor non</code> consequat<br />
+finibus, justo purus auctor massa, nec<br />
+semper lorem quam in massa.  </p>
+</blockquote>
+<h2 id="_-_-z">_ _ Z</h2>
+<blockquote>
+<p>Lorem ipsum dolor sit amet, consectetur<br />
+adipiscing elit. Nulla et euismod nulla.<br />
+Curabitur feugiat, <code>tortor non</code> consequat<br />
+finibus, justo purus auctor massa, nec<br />
+semper lorem quam in massa.  </p>
+</blockquote>
 <hr />
-<p>En digital safari innen åpen design er gøy,</p>
-<p>og nå begynner din digitale erfaring å bli høy.</p>
-<p>Kanskje du etter denne reise vil se</p>
-<p>at det å la seg forblinde av kommersielle løsninger er passé.</p>
-<p>For open source gir deg så mye mer</p>
-<p>enn bedre økonomi </p>
-<p>Min kjære venn: Kom, bli med!</p>
 
 
 
@@ -1285,8 +1475,13 @@ div, p, h1, h2, h3 {
 
 
 
+  
+  
 
 
+
+
+  
 
 
 
